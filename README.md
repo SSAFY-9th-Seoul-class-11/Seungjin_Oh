@@ -4,9 +4,9 @@
 
 ## 1주차
 * SWEA
-  * [1206. View](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1206.java)  
-  * [1208. Flatten](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_1208.java)  
-  * [2805. 농작물 수확하기](https://github.com/SSAFY-9th-Seoul-class-11/Dasom_Han/blob/main/SWEA/swea_2805.java)  
+  * [1206. View](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1206_View.py)  
+  * [1208. Flatten](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1208_Flatten/src/SWEA_1208_Flatten.java)  
+  * [2805. 농작물 수확하기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_2805_Farm/src/Solution.java)  
 ## 2주차
 * SWEA
 * BOJ
