@@ -11,7 +11,7 @@
 * SWEA
   * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1220_Magnetic/src/Solution.java)  
   * [1225. 암호생성기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1225_PasswordMaker/src/Solution.java)  
-  * [2806. N-Queen]()  
+  * [2806. N-Queen](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_2806_NQueens/src/Solution.java)  
 * BOJ
 ## 3주차
 * SWEA
