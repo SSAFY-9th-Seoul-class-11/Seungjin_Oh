@@ -9,6 +9,9 @@
   * [2805. 농작물 수확하기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_2805_Farm/src/Solution.java)  
 ## 2주차
 * SWEA
+  * [1220. Magnetic](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1220_Magnetic/src/Solution.java)  
+  * [1225. 암호생성기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1225_PasswordMaker/src/Solution.java)  
+  * [2806. N-Queen]()  
 * BOJ
 ## 3주차
 * SWEA
