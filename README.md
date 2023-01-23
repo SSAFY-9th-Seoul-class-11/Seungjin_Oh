@@ -14,6 +14,7 @@
   * [2806. N-Queen](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_2806_NQueens/src/Solution.java)  
 * BOJ
   * [11047. 동전 0](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11047_Coin0/src/Main.java)  
+  * [1931. 회의실 배정](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1931_MeetingRoom/src/Main.java) 
 ## 3주차
 * SWEA
 * BOJ
