@@ -15,6 +15,7 @@
 * BOJ
   * [11047. 동전 0](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11047_Coin0/src/Main.java)  
   * [1931. 회의실 배정](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1931_MeetingRoom/src/Main.java) 
+  * [1541. 잃어버린 괄호](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1541_LostedBracket/src/Main.java) 
 ## 3주차
 * SWEA
 * BOJ
