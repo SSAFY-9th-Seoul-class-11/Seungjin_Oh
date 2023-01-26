@@ -20,7 +20,7 @@
 * SWEA
   * [1215. 회문1](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1215_Palindrome1/src/Solution.java)  
   * [1249. 보급로]()  
-  * [1860. 회문1]()  
+  * [1860. 진기의 최고급 붕어빵]()  
 * BOJ
 ## 4주차
 * SWEA
