@@ -22,6 +22,7 @@
   * [1249. 보급로]()  
   * [1860. 진기의 최고급 붕어빵](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1860_FishBread/src/Solution.java) 
 * BOJ
+  * [1260. DFS와 BFS](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1260_DFSandBFS/src/Main.java)
 ## 4주차
 * SWEA
 * BOJ
