@@ -18,6 +18,9 @@
   * [1541. 잃어버린 괄호](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1541_LostedBracket/src/Main.java) 
 ## 3주차
 * SWEA
+  * [1215. 회문1](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1215_Palindrome1/src/Solution.java)  
+  * [1249. 보급로]()  
+  * [1860. 회문1]()  
 * BOJ
 ## 4주차
 * SWEA
