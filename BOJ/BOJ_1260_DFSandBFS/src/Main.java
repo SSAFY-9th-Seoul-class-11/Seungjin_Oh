@@ -9,10 +9,19 @@ public class Main {
 	public static boolean[] visited;
 	public static ArrayList<ArrayList<Integer>> graph;
 
+	private static void dfs(int x) {
+		visited[x] = true;
+		System.out.print(x+" ");
+		for (int i = 0; i < graph.get(x).size(); i++) {
+			int y = graph.get(x).get(i);
+			if(!visited[y]) dfs(y);
+		}
+	}
+
 	private static void bfs(int start) {
 		Queue<Integer> q = new LinkedList<>();
 		q.offer(start);
-		
+
 		visited[start] = true;
 		while(!q.isEmpty()) {
 			int x = q.poll();
@@ -25,18 +34,9 @@ public class Main {
 				}
 			}
 		}
-		
+
 	}
-	
-	private static void dfs(int x) {
-		visited[x] = true;
-		System.out.print(x+" ");
-		for (int i = 0; i < graph.get(x).size(); i++) {
-			int y = graph.get(x).get(i);
-			if(!visited[y]) dfs(y);
-		}
-	}
-	
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
@@ -62,7 +62,7 @@ public class Main {
 					break;
 				}
 			}
-			if(isFind==false)
+			if(!isFind)
 				graph.get(node1).add(node2);
 			isFind=false;
 			for (int j = 0; j < graph.get(node2).size(); j++) {
@@ -71,7 +71,7 @@ public class Main {
 					break;
 				}
 			}
-			if(isFind==false)
+			if(!isFind)
 				graph.get(node2).add(node1);
 		}
 		
