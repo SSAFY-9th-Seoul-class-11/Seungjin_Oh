@@ -24,6 +24,7 @@
 * BOJ
   * [1260. DFS와 BFS](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1260_DFSandBFS/src/Main.java)
   * [2606. 바이러스](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2606_Virus/src/Main.java)
+  * [2667. 단지번호붙이기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2667_NumberingEstate/src/Main.java)
 ## 4주차
 * SWEA
 * BOJ
