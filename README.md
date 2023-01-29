@@ -19,7 +19,7 @@
 ## 3주차
 * SWEA
   * [1215. 회문1](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1215_Palindrome1/src/Solution.java)  
-  * [1249. 보급로]()  
+  * [1249. 보급로](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1249_SupplyWay/src/Solution.java)  
   * [1860. 진기의 최고급 붕어빵](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1860_FishBread/src/Solution.java) 
 * BOJ
   * [1260. DFS와 BFS](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1260_DFSandBFS/src/Main.java)
