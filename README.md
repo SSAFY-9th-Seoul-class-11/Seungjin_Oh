@@ -29,6 +29,7 @@
 * SWEA
 * BOJ
   * [4963. 섬의 개수](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_4963_NumberOfIsland/src/Main.java)
+  * [2470. 두 용액](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2470_TwoSolution/src/Main.java)
 ## 5주차
 * SWEA
 * BOJ
