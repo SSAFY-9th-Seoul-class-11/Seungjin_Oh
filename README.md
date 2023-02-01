@@ -27,6 +27,7 @@
   * [2667. 단지번호붙이기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2667_NumberingEstate/src/Main.java)
 ## 4주차
 * SWEA
+  * [6109. 추억의 2048게임](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_6109_2048Game/src/Solution.java)  
 * BOJ
   * [4963. 섬의 개수](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_4963_NumberOfIsland/src/Main.java)
   * [2470. 두 용액](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2470_TwoSolution/src/Main.java)
