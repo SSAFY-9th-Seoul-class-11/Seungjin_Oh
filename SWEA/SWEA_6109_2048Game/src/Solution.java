@@ -85,7 +85,7 @@ public class Solution {
 				}
 			}
 
-			System.out.println("#"+tc);
+			System.out.println("Case #"+tc+":");
 			for (int i = 0; i < map.length; i++) {
 				for (int j = 0; j < map.length; j++) {
 					System.out.print(map[i][j]+" ");
