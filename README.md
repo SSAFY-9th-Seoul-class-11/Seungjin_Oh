@@ -32,6 +32,8 @@
 * BOJ
   * [4963. 섬의 개수](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_4963_NumberOfIsland/src/Main.java)
   * [2470. 두 용액](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2470_TwoSolution/src/Main.java)
+  * [11729. 하노이 탑 이동 순서](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11729_HanoiTower/src/Main.java)
+  * [17478. 재귀함수가 뭔가요?](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17478_WhatIsRecursiveFunction/src/Main.java)
 ## 5주차
 * SWEA
 * BOJ
