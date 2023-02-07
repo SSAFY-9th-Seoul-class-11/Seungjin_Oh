@@ -25,14 +25,14 @@ public class Solution {
 			temp = new int[N][N];
 			for (int i = 0; i < N; i++) {
 				map[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-			}
+			}  //map 입력
 
-			if(command.equals("up")) {
+			if(command.equals("up")) { //up이면 그냥 game-move
 				game(map);
 				move(map);
 			}
 
-			else if(command.equals("down")) {
+			else if(command.equals("down")) { //down이면 180도 회전한 다음 game-move-180도 회전
 				for (int i = N-1; i >=0; i--) {
 					for (int j = N-1; j >=0; j--) {
 						temp[N-1-i][N-1-j]=map[i][j];
@@ -48,7 +48,7 @@ public class Solution {
 				}
 			}
 
-			else if(command.equals("left")) {
+			else if(command.equals("left")) { //left면 오른쪽으로 90도 회전 - game-move-왼쪽으로 90도 회전
 				for (int i = 0; i < N; i++) {
 					for (int j = 0; j < N; j++) {
 						temp[i][j] = map[N-1-j][i];
@@ -67,7 +67,7 @@ public class Solution {
 
 			}
 
-			else if(command.equals("right")) {
+			else if(command.equals("right")) { //right면 왼쪽으로 90도 회전 - game-move-오른쪽으로 90도 회전
 				for (int i = 0; i < N; i++) {
 					for (int j = 0; j < N; j++) {
 						temp[i][j] = map[j][N-1-i];
@@ -97,7 +97,7 @@ public class Solution {
 		}
 	}
 
-	private static void move(int[][] arr) {
+	private static void move(int[][] arr) { //0을 무시하고 위로 올리는 함수
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
 				if(arr[j][i]==0) {
@@ -116,24 +116,17 @@ public class Solution {
 	private static void game(int[][] arr) {
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < N; j++) {
-				for (int k = i+1; k < N; k++) {
+				for (int k = i+1; k < N; k++) { //아래로 탐색하면서
 					if(arr[k][j]==0) continue;
-					else if(arr[k][j]==arr[i][j]) {
-						arr[k][j]=0;
-						arr[i][j]*=2;
+					else if(arr[k][j]==arr[i][j]) { //가장 처음 만나는 0이아닌 숫자가 같은 숫자일 때
+						arr[k][j]=0; //아래를 0으로 만들고
+						arr[i][j]*=2; //위를 2배로 
 						break;
 					}
 					else break;
 				}
 			}
 		}
-
-		//		for (int i = 0; i < arr.length; i++) {
-		//			for (int j = 0; j < arr.length; j++) {
-		//				System.out.print(arr[i][j]+" ");
-		//			}
-		//			System.out.println();
-		//		}
 	}
 
 }

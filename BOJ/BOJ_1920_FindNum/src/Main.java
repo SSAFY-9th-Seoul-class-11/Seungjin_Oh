@@ -17,9 +17,9 @@ public class Main {
 			numArr1[i] = sc.nextInt();
 		}
 		int M = sc.nextInt();
-		numArr2 = new int[N];
+		numArr2 = new int[M];
 		
-		for (int i = 0; i < N; i++) {
+		for (int i = 0; i < M; i++) {
 			numArr2[i] = sc.nextInt();
 		}
 

@@ -22,12 +22,12 @@ public class Solution {
 			String[] input = br.readLine().split(" ");
 			
 			num = input[0];
-			N = Integer.parseInt(input[1]);
-			arr = new ArrayList<Set<String>>();
+			N = Integer.parseInt(input[1]); //교환 횟수
+			arr = new ArrayList<Set<String>>(); //dp테이블 느낌
 			
-			Set<String> tmp = new HashSet<>();
+			Set<String> tmp = new HashSet<>(); //중복 없게 ㅇㅇ
 			tmp.add(num);
-			arr.add(tmp);
+			arr.add(tmp); //arr[0] = 0번 교환했을 때
 			for (int i = 1; i <= N; i++) {
 				tmp = new HashSet<>();
 				for (String x : arr.get(i-1)) {
@@ -40,11 +40,11 @@ public class Solution {
 							temp2[k]=temp2[l];
 							temp2[l]=t;
 							String str = new String(temp2);
-							tmp.add(str);
+							tmp.add(str); // k번째 카드랑 l번째 카드 교환해서 tmp에 넣기
 						}
 					}
 				}
-				arr.add(tmp);
+				arr.add(tmp); //arr[1] = 1번 교환했을 때 가능한 모든 경우의 수 (without 중복)
 			}
 			
 			int max=-1;
@@ -52,7 +52,7 @@ public class Solution {
 				if (max<Integer.parseInt(string)) {
 					max=Integer.parseInt(string);
 				}
-			}
+			} // max(arr[N]) N번 교환했을 때 가능한 경우의 수 중 최대값
 			
 			System.out.println("#"+tc+" "+max);
 		}
