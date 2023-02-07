@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class Main {
@@ -23,9 +24,36 @@ public class Main {
 			temp.add(S);
 			temp.add(T);
 			arr.add(temp);
-			
-//			arr.sort(Comparator.naturalOrder());
 		}
+		arr.sort((x,y)->x.get(0)-y.get(0));
+//		for (ArrayList<Integer> x : arr) {
+//			System.out.println(x.get(0)+" "+x.get(1));
+//		}
+		int answer = 1;
+		ArrayList<ArrayList<Integer>> classRoom = new ArrayList<ArrayList<Integer>>();
+		classRoom.add(arr.get(0));
+		for (int i = 1; i < arr.size(); i++) {
+			boolean isPossible = false;
+			for (int j = 0; j < classRoom.size(); j++) {
+				if (arr.get(i).get(0)>=classRoom.get(j).get(1)) {
+					isPossible = true;
+					classRoom.remove(j);
+				}
+			}
+			if(isPossible==false) {
+				answer++;
+			}
+
+			classRoom.add(arr.get(i));
+			classRoom.sort((x,y)->x.get(1)-y.get(1));
+//			for (ArrayList<Integer> x : classRoom) {
+//				System.out.println(x.get(0)+" "+x.get(1));
+//			}
+//			System.out.println();
+		}
+		
+		
+		System.out.println(answer);
 	}
 
 }
