@@ -39,3 +39,5 @@
 ## 5주차
 * SWEA
 * BOJ
+  * [1011. Fly me to the Alpha Centauri](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_4963_NumberOfIsland/src/Main.java)
+  * [6209. 제자리 멀리뛰기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_6209_RiverHopscotch/src/Main.java)
