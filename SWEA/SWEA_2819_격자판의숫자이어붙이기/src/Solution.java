@@ -1,7 +1,5 @@
 import java.io.IOException;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -15,52 +13,38 @@ class Pos {
     }
 }
 
-
 public class Solution {
     static int[][] map;
-    static int N;
     static int[] xdir = {-1,1,0,0};
     static int[] ydir = {0,0,-1,1};
-    static Set<Integer> arr;
+    static Set<String> arr;
 
-    private static void bfs(int x,int y,int cnt) {
-        Queue<Pos> q = new LinkedList<>();
+    private static void dfs(int x,int y,String n) {
+        n=n+map[x][y];
+        if(n.length()==7){
+            arr.add(n);
+            return;
+        }
 
-        q.offer(new Pos(x,y));
+        for (int i = 0; i < 4; i++) {
+            int dx = x+xdir[i];
+            int dy = y+ydir[i];
 
-        while(!q.isEmpty()){
-            Pos p = q.poll();
-            int a = p.x;
-            int b = p.y;
-
-            if(cnt==N){
-            	
-            }
-
-            for (int i = 0; i < 4; i++) {
-                int dx = a+xdir[i];
-                int dy = b+ydir[i];
-
-                if (isValidPosition(dx,dy)){
-                    if (!visited[dx][dy] || ans[dx][dy] > ans[a][b] + map[dx][dy]){
-                        ans[dx][dy] = ans[a][b]+map[dx][dy];
-                        q.offer(new Pos(dx,dy));
-                    }
-                }
+            if (isValidPosition(dx,dy)){
+                dfs(dx,dy,n);
             }
         }
     }
     
     private static boolean isValidPosition(int x, int y) {
-        if(x<0||x>=N||y<0||y>=N) return false;
+        if(x<0||x>=4||y<0||y>=4) return false;
         return true;
     }
     
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
-		
-		
+
 		for (int tc = 1; tc <=T; tc++) {
 			
 			arr = new HashSet<>();
@@ -70,10 +54,13 @@ public class Solution {
 					map[i][j]=sc.nextInt();
 				}
 			}
-			bfs(0,0,1);
-			
-			
-			
+
+            for (int i = 0; i < 4; i++) {
+                for (int j = 0; j < 4; j++) {
+                    dfs(i,j,"");
+                }
+            }
+            System.out.println("#"+tc+" "+arr.size());
 		}
 	}
 

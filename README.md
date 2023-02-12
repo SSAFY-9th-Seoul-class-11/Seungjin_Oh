@@ -38,6 +38,8 @@
   * [1920. 수 찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1920_FindNum/src/Main.java)
 ## 5주차
 * SWEA
+  * [9940. 순열1](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_9940_순열1/src/Solution.java)  
+  * [2819. 격자판의 숫자 이어 붙이기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_2819_격자판의숫자이어붙이기/src/Solution.java)  
 * BOJ
   * [1011. Fly me to the Alpha Centauri](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_4963_NumberOfIsland/src/Main.java)
   * [6209. 제자리 멀리뛰기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_6209_RiverHopscotch/src/Main.java)
