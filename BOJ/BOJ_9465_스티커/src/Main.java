@@ -10,63 +10,57 @@ public class Main {
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		
 		int T = Integer.parseInt(br.readLine());
-		int[] xdir = {-1,1,0,0};
-	    int[] ydir = {0,0,-1,1};
-	    int[] xdir2 = {-2,2,0,0};
-	    int[] ydir2 = {0,0,-2,2};
 		
 		for (int tc = 1; tc <= T; tc++) {
 			N = Integer.parseInt(br.readLine());
 
-			int[][] sticker=new int[2][N];
-			int[][] dp=new int[2][N];
+			int[][] sticker=new int[2][N+1];
+			int[] dp = new int[N+1];
+			
 			for (int i = 0; i < 2; i++) {
 				String[] input=br.readLine().split(" ");
-				for (int j = 0; j < N; j++) {
-					sticker[i][j]=Integer.parseInt(input[j]);
+				for (int j = 1; j <= N; j++) {
+					sticker[i][j]=Integer.parseInt(input[j-1]);
 				}
 			}
 			
-			dp[0][0]=sticker[0][0];
-			for (int i = 0; i < 2; i++) {
-				for (int j = 0; j < N; j++) {
-					if(i==0&&j==0)continue;
-					List<Integer> nearBy = new ArrayList<>();
-					for (int k = 0; k < 4; k++) {
-						int dx = i+xdir[k];
-		                int dy = j+ydir[k];
-
-		                if (isValidPosition(dx,dy)){
-		                    nearBy.add(dp[dx][dy]);
-		                }
+			int pick;
+			if(sticker[0][1]>sticker[1][1]) {
+				dp[1]=sticker[0][1];
+				pick=0;
+			}
+			else {
+				dp[1]=sticker[1][1];
+				pick=1;
+			}
+			
+			for (int i = 2; i <= N; i++) {
+				if(dp[i-1]+sticker[Math.abs(pick-1)][i]>dp[i-2]+Math.max(sticker[0][i],sticker[1][i])) {
+					dp[i]=dp[i-1]+sticker[Math.abs(pick-1)][i];
+					pick=Math.abs(pick-1);
+				}
+				else {
+					if(sticker[0][i]>sticker[1][i]) {
+						dp[i]=dp[i-2]+sticker[0][i];
+						pick=0;
 					}
-					for (int k = 0; k < 4; k++) {
-						int dx = i+xdir2[k];
-		                int dy = j+ydir2[k];
-
-		                if (isValidPosition(dx,dy)){
-		                    nearBy.add(dp[dx][dy]+sticker[i][j]);
-		                }
+					else {
+						dp[i]=dp[i-2]+sticker[1][i];
+						pick=1;
 					}
-					dp[i][j] = Collections.max(nearBy);
 				}
 			}
-			
-//			System.out.println(dp[1][N-1]);
-			for (int i = 0; i < 2; i++) {
-				for (int j = 0; j < N; j++) {
-					System.out.print(dp[i][j]+" ");
-				}
-				System.out.println();
+			for (int x : dp) {
+				sb.append(x+" ");
 			}
-			
+			sb.append("\n");
+			sb.append(dp[N]+"\n");
 		}
+		System.out.println(sb.toString());
 	}
-
-	private static boolean isValidPosition(int x, int y) {
-		if(x<0||x>=2||y<0||y>=N) return false;
-        return true;
-	}
-
 }
+
+
