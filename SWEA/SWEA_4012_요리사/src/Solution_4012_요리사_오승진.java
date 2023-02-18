@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -13,11 +11,8 @@ public class Solution_4012_요리사_오승진 {
 	static int N;
 	static int[][] synergy;
 	static int[] numbers;
-	static int[] numbers2;
 	static LinkedList<int[]> combination;
-	static List<Integer> synergyA;
-	static List<Integer> synergyB;
-	
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		int T = Integer.parseInt(br.readLine());
 		for (int tc = 1; tc <=T; tc++) {
@@ -27,6 +22,8 @@ public class Solution_4012_요리사_오승진 {
 			synergy = new int[N][N];
 			combination=new LinkedList<>();
 			numbers=new int[N/2];
+			int min = Integer.MAX_VALUE;
+
 			for (int i = 0; i < N; i++) {
 				String[] input = br.readLine().split(" ");
 				for (int j = 0; j < N; j++) {
@@ -35,10 +32,6 @@ public class Solution_4012_요리사_오승진 {
 			}
 			comb(0,1);
 			
-//			for (int[] is : combination) {
-//				System.out.println(is[0]+","+is[1]);
-//			}
-			
 			List<int[]> A = new ArrayList<>();
 			List<int[]> B = new ArrayList<>();
 			
@@ -46,44 +39,38 @@ public class Solution_4012_요리사_오승진 {
 				A.add(combination.pollFirst());
 				B.add(combination.pollLast());
 			}
-			
-			List<Integer> synergyDiff = new ArrayList<>();
 			for (int i = 0; i < A.size(); i++) {
-				int[] a = A.get(i);
-				int[] b = B.get(i);
-//				for (int x : a) {
-//					System.out.print(x+" ");
-//				}
-//				System.out.println();
-//				for (int x : b) {
-//					System.out.print(x+" ");
-//				}
-//				System.out.println();
-//				System.out.println();
-				
-				numbers2=new int[2];
-				synergyA = new ArrayList<>();
-				comb2(0,0,a,synergyA);
-				numbers2=new int[2];
-				synergyB = new ArrayList<>();
-				comb2(0,0,b,synergyB);
-				
-				for (int j = 0; j < synergyA.size(); j++) {
-					synergyDiff.add(Math.abs(synergyA.get(j)-synergyB.get(j)));
-				}
+				min = Math.min(calcSynergyDiff(A.get(i), B.get(i)), min);
 			}
+
 			
-			sb.append("#"+tc+" "+Collections.min(synergyDiff)+"\n");
-			
-			
+			sb.append("#"+tc+" "+min+"\n");
 		}
 		System.out.println(sb.toString());
 	}
-	
-	
+
+	private static int calcSynergyDiff(int[] a, int[] b) {
+		int synergyA = 0;
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a.length; j++) {
+				if (i==j) continue;
+				synergyA+=synergy[a[i]-1][a[j]-1];
+			}
+		}
+		int synergyB = 0;
+		for (int i = 0; i < b.length; i++) {
+			for (int j = 0; j < b.length; j++) {
+				if (i==j) continue;
+				synergyB+=synergy[b[i]-1][b[j]-1];
+			}
+		}
+
+		return Math.abs(synergyA-synergyB);
+	}
+
+
 	private static void comb(int cnt, int start) {
 		if(cnt==N/2) {
-//			System.out.println(Arrays.toString(numbers));
 			int[] temp = new int[N/2];
 			for (int i = 0; i < N/2; i++) {
 				temp[i]=numbers[i];
@@ -94,22 +81,6 @@ public class Solution_4012_요리사_오승진 {
 		for (int i = start; i <=N; i++) {
 			numbers[cnt] = i;
 			comb(cnt+1,i+1);
-		}
-	}
-	
-	private static void comb2(int cnt, int start, int[] array, List<Integer> synergyList) {
-		if(cnt==2) {
-//			System.out.println(Arrays.toString(numbers));
-			int a=numbers2[0];
-			int b=numbers2[1];
-			int temp = synergy[a-1][b-1]+synergy[b-1][a-1];
-			
-			synergyList.add(temp);
-			return;
-		}
-		for (int i = start; i <array.length; i++) {
-			numbers2[cnt] = array[i];
-			comb2(cnt+1,i+1,array,synergyList);
 		}
 	}
 
