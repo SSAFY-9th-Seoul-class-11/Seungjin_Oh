@@ -46,7 +46,7 @@
 ## 6주차
 * SWEA
   * [1868. 파핑파핑 지뢰찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1868_파핑파핑지뢰찾기/src/Solution.java)  
-  * [14163. 그룹 나누기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_14163_그룹나누기/src/Solution.java)  
+  * [14163. 그룹 나누기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_14163_%EA%B7%B8%EB%A3%B9%EB%82%98%EB%88%84%EA%B8%B0/src/Solution.java)  
 * BOJ
   * [9465. 스티커](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9465_스티커/src/Main.java)
-  * [2565. 전깃줄](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2565_전깃줄/src/Main.java)
+  * [2565. 전깃줄](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2565_%EC%A0%84%EA%B9%83%EC%A4%84/src/Main.java)
