@@ -45,7 +45,7 @@
   * [6209. 제자리 멀리뛰기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_6209_RiverHopscotch/src/Main.java)
 ## 6주차
 * SWEA
-  * [1868. 파핑파핑 지뢰찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1868_파핑파핑지뢰찾기/src/Solution.java)  
+  * [1868. 파핑파핑 지뢰찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_1868_%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0/src/Solution.java)  
   * [14163. 그룹 나누기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/SWEA/SWEA_14163_%EA%B7%B8%EB%A3%B9%EB%82%98%EB%88%84%EA%B8%B0/src/Solution.java)  
 * BOJ
   * [9465. 스티커](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9465_스티커/src/Main.java)
