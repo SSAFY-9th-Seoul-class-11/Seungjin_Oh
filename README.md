@@ -53,4 +53,6 @@
 ## 7주차
 * BOJ
   * [17070. 파이프 옮기기 1](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17070_MovingPipe1/src/Main_MovingPipe1_오승진.java)
-  * [17406. 배열 돌리기 4](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2565_%EC%A0%84%EA%B9%83%EC%A4%84/src/Main.java)
+  * [17406. 배열 돌리기 4](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17406_SpinningArray4/src/Main.java)
+  * [7662. 이중 우선순위 큐](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_7662_DualPriorityQueue/src/Main.java)
+  * [14500. 테트로미노](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_14500_Tetromino/src/Main.java)

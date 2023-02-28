@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.PriorityQueue;
+import java.util.TreeMap;
 
 public class Main {
 
@@ -13,36 +13,25 @@ public class Main {
 			
 			
 			int k = Integer.parseInt(br.readLine());
-			PriorityQueue<Integer> queue1 = new PriorityQueue<>((o1,o2) -> o1-o2);
-			PriorityQueue<Integer> queue2 = new PriorityQueue<>((o1,o2) -> o2-o1);
-			int qSize = 0;
+			TreeMap<Integer, Integer> queue = new TreeMap<>();
 			
 			for (int i = 0; i < k; i++) {
 				String[] input = br.readLine().split(" ");
 				String command = input[0];
-				
 				int num = Integer.parseInt(input[1]);
 				if(command.equals("I")) {
-					queue1.offer(num);
-					queue2.offer(num);
-					qSize++;
+					queue.put(num, queue.getOrDefault(num, 0)+1);
 				}
 				else {
-					if(qSize==0) continue;
-					
-					if(num==-1) queue1.poll(); //최소
-					else queue2.poll(); //최대
-					qSize--;
+					if(queue.size()==0) continue;
+					int key = num==1?queue.lastKey():queue.firstKey();
+					if(queue.get(key)==1) queue.remove(key);
+					else queue.put(key, queue.get(key)-1);
 				}
 			}
 			
-			if(qSize==0) System.out.println("EMPTY");
-			else {
-				if(qSize==1) System.out.println(queue1.peek()+" "+queue1.peek());
-				else System.out.println(queue2.peek()+" "+queue1.peek());
-			}
-			
-			
+			if(queue.isEmpty()) System.out.println("EMPTY");
+			else System.out.println(queue.lastKey()+" "+queue.firstKey());
 			
 		}
 	}
