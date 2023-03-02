@@ -49,15 +49,15 @@ public class Main_MovingPipe1_오승진 {
 			}
 		}
 		
-//		for (int i = 0; i < 3; i++) {
-//			for (int j = 0; j < N; j++) {
-//				for (int k=0; k<N; k++) {
-//					System.out.print(dp[j][k][i]+" ");
-//				}
-//				System.out.println();
-//			}
-//			System.out.println();
-//		}
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < N; j++) {
+				for (int k=0; k<N; k++) {
+					System.out.print(dp[j][k][i]+" ");
+				}
+				System.out.println();
+			}
+			System.out.println();
+		}
 		
 		System.out.println(dp[N-1][N-1][0]+dp[N-1][N-1][1]+dp[N-1][N-1][2]);
 //		System.out.println(Integer.max(dp[N-1][N-1][0], Integer.max(dp[N-1][N-1][1], dp[N-1][N-1][2])));
