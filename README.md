@@ -59,6 +59,6 @@
 ## 8주차
 * BOJ
   * [17472. 다리 만들기 2](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17472_MakingBridge2/src/Main.java)
-  * [17406. 배열 돌리기 4](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17406_SpinningArray4/src/Main.java)
-  * [7662. 이중 우선순위 큐](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_7662_DualPriorityQueue/src/Main.java)
-  * [14500. 테트로미노](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_14500_Tetromino/src/Main.java)
+  * [3019. 테트리스](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_3019_Tetris/src/Main.java)
+  * [14501. 퇴사](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_14501_Leave/src/Main.java)
+  * [11725. 트리의 부모 찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11725_FindingParentsOfTree/src/Main.java)
