@@ -53,8 +53,8 @@ public class Main {
 		M = Integer.parseInt(input[1]);
 		map = new int[N][M];
 		visited = new boolean[N][M];
-		numIsland = 1;
-		graph = new ArrayList<>();
+		numIsland = 1; // 섬 개수
+		graph = new ArrayList<>(); // 어떤 섬이 어디랑 연결되어 있는지
 		
 		for (int i = 0; i < N; i++) {
 			input = br.readLine().split(" ");
@@ -66,7 +66,7 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				if(map[i][j]==1 && !visited[i][j]) {
-					bfs(i,j,numIsland);
+					bfs(i,j,numIsland); //플러드필
 					numIsland++;
 				}
 			}
@@ -79,11 +79,11 @@ public class Main {
 		}
 		
 		for (int i = 0; i < N; i++) {
-			horizonSearch(i);
+			horizonSearch(i); //한 행씩 가로줄을 내려오면서 찾기
 		}
 		
 		for (int i = 0; i < M; i++) {
-			verticalSearch(i);
+			verticalSearch(i); //한 열씩 세로줄을 옮겨가면서 찾기
 		}
 		
 		
@@ -94,7 +94,7 @@ public class Main {
 //		}
 		
 		
-		
+		//MST
 		int result=0;
 		int[] minEdge = new int[numIsland];
 		for (int i = 0; i < numIsland; i++) {
@@ -170,21 +170,21 @@ public class Main {
 		int bridgeLength=0;
 		
 		for (int j = 0; j < M; j++) {
-			if(map[i][j]==0) bridgeLength++;
-			else {
-				if(from==-1) {
-					from = map[i][j];
+			if(map[i][j]==0) bridgeLength++; //물이면 다리 길이 증가
+			else { //땅이면
+				if(from==-1) { //from이 없으면
+					from = map[i][j]; //여기서부터 다리 시작
 					bridgeLength=0;
 				}
-				else {
-					if(map[i][j]==from) {
-						bridgeLength=0;
+				else { //이미 다리 만들고 있는 중이면
+					if(map[i][j]==from) { //아직 땅이 안끝난거였다면
+						bridgeLength=0; //다리 다시 시작
 						continue;
 					}
-					to = map[i][j];
+					to = map[i][j]; //여기가 끝
 					if(bridgeLength>1) {
-						graph.get(from).add(new Vertex(to,bridgeLength));
-						graph.get(to).add(new Vertex(from,bridgeLength));
+						graph.get(from).add(new Vertex(to,bridgeLength)); //from 에서 to로 길이가 bridgeLength인 다리 완성
+						graph.get(to).add(new Vertex(from,bridgeLength)); //to 에서 from으로 길이가 bridgeLength인 다리 완성
 					}
 					from = to;
 					to = -1;
