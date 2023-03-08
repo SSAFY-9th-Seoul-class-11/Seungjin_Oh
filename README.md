@@ -70,3 +70,4 @@
   * [16953. A → B](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_16953_AtoB/src/Main.java)
   * [14003. 가장 긴 증가하는 부분 수열 5](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_14003_LIS5/src/Main.java)
   * [1197. 최소 스패닝 트리](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1197_MST/src/Main.java)
+  * [12015. 가장 긴 증가하는 부분 수열 2](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_12015_LIS2/src/Main.java)
