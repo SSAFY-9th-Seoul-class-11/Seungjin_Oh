@@ -64,8 +64,8 @@
   * [11725. 트리의 부모 찾기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11725_FindingParentsOfTree/src/Main.java)
 ## 9주차
 * BOJ
-  * [1149. RGB거리](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_/src/Main.java)
-  * [2096. 내려가기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_/src/Main.java)
+  * [1149. RGB거리](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1149_RGBStreet/src/Main.java)
+  * [2096. 내려가기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2096_GoingDown/src/Main.java)
   * [2568. 전깃줄 -2](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2568_ElectricWire2/src/Main.java)
   * [16953. A → B](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_16953_AtoB/src/Main.java)
   * [14003. 가장 긴 증가하는 부분 수열 5](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_14003_LIS5/src/Main.java)
