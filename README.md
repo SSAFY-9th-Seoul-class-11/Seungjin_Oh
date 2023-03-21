@@ -74,4 +74,6 @@
 ## 10주차
 * BOJ
   * [15654. N과M(5)](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_15654_NandM5/src/Main.java)
+  * [2206. 벽 부수고 이동하기](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2206_BreakAWallandMove/src/Main.java)
+  * [1806. 부분합](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1806_Subtotal/src/Main.java)
 
