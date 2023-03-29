@@ -82,5 +82,6 @@
   * [1918. 후위 표기식](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1918_PostfixNotation/src/Main.java)
   * [13549. 숨바꼭질 3](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_13549_HideAndSeek3/src/Main.java)
   * [1644. 소수의 연속합](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1644_ConsecutiveSumOfPrimeNumber/src/Main.java)
+  * [17143. 낚시왕](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17143_KingOfFishing/src/Main.java)
 
 
