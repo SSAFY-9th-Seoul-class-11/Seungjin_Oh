@@ -83,6 +83,13 @@
   * [13549. 숨바꼭질 3](https://www.acmicpc.net/problem/13549) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_13549_HideAndSeek3/src/Main.java)
   * [1644. 소수의 연속합](https://www.acmicpc.net/problem/1644) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1644_ConsecutiveSumOfPrimeNumber/src/Main.java)
   * [17143. 낚시왕](https://www.acmicpc.net/problem/17143) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_17143_KingOfFishing/src/Main.java)
+  * [16946. 벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_16946_BreakAWallandMove4/src/Main.java)
+## 12주차
+* BOJ
+  * [9328. 열쇠](https://www.acmicpc.net/problem/9328) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9328_Key/src/Main.java)
+  * [1202. 보석 도둑](https://www.acmicpc.net/problem/1202) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1202_JewelryThief/src/Main.java)
+  * [12100. 2048 (Easy)](https://www.acmicpc.net/problem/12100) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_12100_2048Easy/src/Main.java)
+
 
 
 
