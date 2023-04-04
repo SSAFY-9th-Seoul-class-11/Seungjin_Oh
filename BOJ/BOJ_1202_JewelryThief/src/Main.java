@@ -15,7 +15,7 @@ class Jewelry implements Comparable<Jewelry> {
 
     @Override
     public int compareTo(Jewelry o) {
-        return this.M - o.M;
+        return this.V-o.V;
     }
 }
 public class Main {
@@ -31,10 +31,8 @@ public class Main {
         String[] input = br.readLine().split(" ");
         N = Integer.parseInt(input[0]);
         K = Integer.parseInt(input[1]);
-        pq = new PriorityQueue<>();
         bags = new ArrayList<>();
         jewelries = new ArrayList<>();
-        selected = new boolean[K];
         int max = Integer.MIN_VALUE;
         long answer = 0;
 
@@ -54,14 +52,15 @@ public class Main {
 
         int index = 0;
         for (int i = 0; i < K; i++) {
+            pq = new PriorityQueue<>();
             while (index<N && jewelries.get(index).M<=bags.get(i)){
                 pq.add(jewelries.get(index).V);
                 index++;
             }
+            System.out.println(pq.toString());
         }
 
 
-        System.out.println(answer);
     }
 }
 
