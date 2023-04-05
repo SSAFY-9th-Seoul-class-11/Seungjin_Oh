@@ -164,8 +164,9 @@
 
 * BOJ
   
-  * [9328. 열쇠](https://www.acmicpc.net/problem/9328) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9328_Key/src/Main.java)
-  * [1202. 보석 도둑](https://www.acmicpc.net/problem/1202) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1202_JewelryThief/src/Main.java)
-  * [12100. 2048 (Easy)](https://www.acmicpc.net/problem/12100) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_12100_2048Easy/src/Main.java)
   * [11404. 플로이드](https://www.acmicpc.net/problem/11404) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_11404_Floyd/src/Main.java)
   * [9935. 문자열 폭발](https://www.acmicpc.net/problem/9935) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9935_StringExplosion/src/Main.java)
+  * [12865. 평범한 배낭](https://www.acmicpc.net/problem/12865) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_12865_StandardKnapsack/src/Main.java)
+  * [12100. 2048 (Easy)](https://www.acmicpc.net/problem/12100) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_12100_2048Easy/src/Main.java)
+  - [9328. 열쇠](https://www.acmicpc.net/problem/9328) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_9328_Key/src/Main.java)
+  - [1202. 보석 도둑](https://www.acmicpc.net/problem/1202) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1202_JewelryThief/src/Main.java)
