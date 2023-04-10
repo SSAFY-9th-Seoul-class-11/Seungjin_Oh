@@ -5,7 +5,7 @@ import java.util.*;
 
 import static java.util.Collections.binarySearch;
 
-class Jewelry implements Comparable<Jewelry> {
+class Jewelry{
     int M;
     int V;
     Jewelry(int M, int V){
@@ -14,8 +14,11 @@ class Jewelry implements Comparable<Jewelry> {
     }
 
     @Override
-    public int compareTo(Jewelry o) {
-        return this.V-o.V;
+    public String toString() {
+        return "Jewelry{" +
+                "M=" + M +
+                ", V=" + V +
+                '}';
     }
 }
 public class Main {
@@ -24,7 +27,6 @@ public class Main {
     static PriorityQueue<Integer> pq;
     static List<Integer> bags;
     static List<Jewelry> jewelries;
-    static boolean[] selected;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -48,18 +50,28 @@ public class Main {
             bags.add(bag);
             if(bag>max) max=bag;
         }
+        jewelries.sort((Jewelry o1, Jewelry o2) -> {
+            if(o1.M==o2.M)
+                return o2.V-o1.V;
+            else
+                return o1.M-o2.M;
+        });
+//        System.out.println(jewelries.toString());
         bags.sort((o1, o2) -> o1-o2);
+//        System.out.println(bags.toString());
 
         int index = 0;
+        pq = new PriorityQueue<>(Comparator.reverseOrder());
         for (int i = 0; i < K; i++) {
-            pq = new PriorityQueue<>();
             while (index<N && jewelries.get(index).M<=bags.get(i)){
-                pq.add(jewelries.get(index).V);
+                pq.offer(jewelries.get(index).V);
                 index++;
             }
-            System.out.println(pq.toString());
+//            System.out.println(pq.toString());
+            if(!pq.isEmpty())
+                answer += pq.poll();
         }
-
+        System.out.println(answer);
 
     }
 }
