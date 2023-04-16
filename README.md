@@ -171,3 +171,11 @@
   - [1202. 보석 도둑](https://www.acmicpc.net/problem/1202) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1202_JewelryThief/src/Main.java)
   - [1629. 곱셈](https://www.acmicpc.net/problem/1629) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1629_Multiply/src/Main.java)
   - [2252. 줄세우기](https://www.acmicpc.net/problem/2252) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2252_LineUp/src/Main.java)
+    
+    ## 13주차
+- BOJ
+  - [2239. 스도쿠](https://www.acmicpc.net/problem/2239) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2239_Sudoku/src/Main.java)
+  - [2623. 음악프로그램](https://www.acmicpc.net/problem/2623) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_2623_MusicProgram/src/Main.java)
+  - [1916. 최소비용 구하기](https://www.acmicpc.net/problem/1916) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_1916_GetMinCost/src/Main.java)
+    
+    
