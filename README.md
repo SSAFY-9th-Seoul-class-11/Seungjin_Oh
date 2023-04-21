@@ -116,5 +116,5 @@
     
 ## 14주차
 * BOJ
-  * [10942. 팰린드롬?](https://www.acmicpc.net/problem/10942) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_10942_/src/Main.java)
+  * [10942. 팰린드롬?](https://www.acmicpc.net/problem/10942) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_10942_isPalindrome/src/Main.java)
   * [20040. 사이클 게임](https://www.acmicpc.net/problem/20040) / [코드](https://github.com/SSAFY-9th-Seoul-class-11/Seungjin_Oh/blob/main/BOJ/BOJ_20040_CycleGame/src/Main.java)      
